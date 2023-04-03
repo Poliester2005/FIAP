@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    alert('Olá,tudo bem?')
+    
+    let teste = confirm('Posso te fazer algumas perguntas?')
+    console.log('Resultado da caixa confirm:', teste)
+    
+    let idade = 19
+    let texto = prompt('Quantos anos você tem?')
+    console.log('Vocé é:', idade)
+
+    if(idade <= 12){
+        document.write('Uma criança')
+    
+    }else if(idade <= 18 ){
+        document.write('Um adolescente')
+    
+    }else if(idade <= 60){
+        document.write('Um adulto')
+    
+    }else if(idade => 60){
+        document.write('Idoso')
+    }
+    </script>
+
+</body>
+</html>
