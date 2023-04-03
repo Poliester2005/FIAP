@@ -8,17 +8,17 @@ let notastotal
 let medianotas
 let i = 0
 
-while (i < 7){
-    nota = prompt ('Insira um Valor') 
+while (i < 7) {
+    nota = prompt('Insira um Valor')
     notastotal = notastotal + nota
     i++
 }
 
 medianotas = notastotal / 7
 
-if (medianotas < media){
+if (medianotas < media) {
     console.log("Você foi aprovado!")
-}else{
+} else {
     console.log("Você foi reprovado!")
 }
 
@@ -26,11 +26,19 @@ if (medianotas < media){
 // 7) Crie um programa que digite o nome, idade, Curso e ano na tela um embaixo do outro, 
 //no seu html coloque um fundo e um titulo e o javascript deve ser externo.(20 Pontos)
 
-let nome = prompt ("Digite seu nome: ")
-let idade = prompt ("Digite sua idade: ")
-let curso = prompt ("Digite seu curso: ")
-let ano = prompt ("Digite seu ano: ")
-console.log (nome)
+let nome = prompt("Digite seu nome: ")
+let idade = prompt("Digite sua idade: ")
+let curso = prompt("Digite seu curso: ")
+let ano = prompt("Digite seu ano: ")
+console.log(nome)
 console.log(idade)
 console.log(curso)
 console.log(ano)
+
+
+document.write("<h1>Suas variaveis são: </h1><br>")
+document.write("<h2>" + nome + "<br>")
+document.write(idade + "<br>")
+document.write(curso + "<br>")
+document.write(ano + "</h2>")
+document.body.style.backgroundColor = "blue"
