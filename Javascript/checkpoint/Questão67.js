@@ -37,8 +37,7 @@ console.log(ano)
 
 
 document.write("<h1>Suas variaveis são: </h1><br>")
-document.write("<h2>" + nome + "<br>")
-document.write(idade + "<br>")
-document.write(curso + "<br>")
-document.write(ano + "</h2>")
-document.body.style.backgroundColor = "blue"
+document.write("<h2> Seu nome é " + nome + "<br>")
+document.write("Sua idade é "+ idade + "<br>")
+document.write("Seu curso é " + curso + "<br>")
+document.write("Seu ano de curso é " + ano + "</h2>")
